@@ -30,9 +30,9 @@ function App() {
       {Loading ? (
         <div className="loader">
           <RingLoader
-            color={"red"}
+            color={"magenta"}
             loading={true}
-            size={500}
+            size={200}
             aria-label="Loading Spinner"
             data-testid="loader"
           />
