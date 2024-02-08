@@ -766,6 +766,29 @@ b {
   }
 }
 
+@media (max-width: 700px) {
+  .HomePage {
+    min-height: 70vh;
+  }
+  .NavbarLinks {
+    inset: 0 0 0 30%;
+  }
+  .HomeText h1 {
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .TypeEffect {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .illustration {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 0px;
+    opacity: 0.5;
+  }
+}
+
 @media (max-width: 500px) {
   .HomePage {
     min-height: 70vh;
