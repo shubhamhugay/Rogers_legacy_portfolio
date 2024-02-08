@@ -36,7 +36,7 @@ const Nav = () => {
   };
 
   window.addEventListener("scroll", scrollHandler);
-  const logoname = "<.>_<.>";
+  const logoname = "<>_<>";
   return (
     <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
       <h1

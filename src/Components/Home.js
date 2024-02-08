@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <div className="HomePage">
         <div className="HomeText">
-          <h1>Holla!</h1>
+          <h1>Hola!</h1>
           <h1>
             I'M <b>Shubham hugay</b>
           </h1>
@@ -27,20 +27,20 @@ const Home = () => {
             Brief <b>introduction</b>
           </h1>
           <p>
-            I love the process of developing a website. I want to do work that
-            challenges me as a developer & work that I can be proud of.
-            <br /> -Rogers
+            I really enjoy making websites. I like taking on challenging
+            projects that make me think as a developer and that I can feel proud
+            of when they're finished.
+            <br /> I've been learning <b>Java</b> for a while now, and I've also
+            picked up some basic frontend skills.
             <br />
-            <br />I have long journey in <b>java</b> and also Acquired do-Able
-            knowlegde in <b>Frontend</b> currently enhancing my skills in
-            <b> Java </b> Full stack.
+            Right now, I'm focusing on getting even better at Java Full Stack.
             <br />
-            Also, I love <b> Black coffee</b>
+            Oh, and I'm a big fan of <b>black coffee!</b>
             <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />
           </p>
         </div>
         <Tilt>
-          <img className="menpng" src={menpng} alt="" />
+          <img className="illustration" src={menpng} alt="" />
         </Tilt>
       </div>
     </div>

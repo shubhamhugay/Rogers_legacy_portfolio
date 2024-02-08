@@ -742,8 +742,8 @@ b {
 }
 
 .illustration {
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 500px;
   opacity: 0.2;
   z-index: -2;
 }
@@ -782,10 +782,10 @@ b {
     font-size: 24px;
   }
   .illustration {
-    width: 300px;
+    width: 400px;
     height: 300px;
     margin-bottom: 0px;
-    opacity: 0.2;
+    opacity: 0.5;
   }
 }
 
